@@ -1,14 +1,15 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Feiyang Jin"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Actively looking for full-time software engineer opportunies starting August 2025
-=
+# Biography
+
+**Actively looking for full-time software engineer opportunies starting August 2025**
 
 Hi everyone, I am currently a 5th-year Computer Science Ph.D. student at Georgia Tech. My advisor is [Vivek Sarkar](https://vsarkar.cc.gatech.edu/). Prior to my Ph.D. journey, I earned my bachelor degree from [Washington University in St. Louis](https://washu.edu/) in December 2019.
 
