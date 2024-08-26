@@ -1,13 +1,11 @@
 ---
 permalink: /
-# title: "Feiyang Jin"
+title: "Biography"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-# Biography
 
 **Actively looking for full-time software engineer opportunies starting August 2025**
 
