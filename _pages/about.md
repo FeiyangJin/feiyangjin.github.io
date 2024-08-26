@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Feiyang Jin"
+# title: "Feiyang Jin"
 author_profile: true
 redirect_from: 
   - /about/
