@@ -4,7 +4,7 @@ collection: publications
 category: workshops
 permalink: /publication/iwomp
 excerpt: 'This work builds a data race visualizer for OpenMP programs'
-date: 2024
+date: 2024-09-22
 venue: 'The 20th International Workshop on OpenMP (IWOMP 2024)'
 paperurl: 'http://feiyangjin.github.io/files/iwomp.pdf'
 citation: ''
