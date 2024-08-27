@@ -1,13 +1,15 @@
 ---
-title: "Early notice: GenAI-based Datarace Fix for Real-World Golang Programs"
+title: "Early notice: GenAI based Datarace Fix for Real World Golang Programs"
 collection: publications
 category: workshops
 permalink: /publication/test
 excerpt: 'This work uses Large Language Model to fix data races found in Uber's codebase'
-date: 2022-11-18
-venue: '2022 IEEE/ACM Sixth International Workshop on Software Correctness for HPC Applications (Correctness)'
+date: 2023-12-15
+venue: 'Machine Learning for Systems 2023'
 paperurl: 'http://feiyangjin.github.io/files/mlsys.pdf'
-citation: 'F. Jin, J. Jacobson, S. D. Pollard and V. Sarkar, "MiniKokkos: A Calculus of Portable Parallelism," 2022 IEEE/ACM Sixth International Workshop on Software Correctness for HPC Applications (Correctness), Dallas, TX, USA, 2022, pp. 37-44, doi: 10.1109/Correctness56720.2022.00010.'
+citation: 'Jin, F., Zhang, Z., Barik, R., Korlam, G., & Chabbi, M. Early notice: GenAI-based Datarace Fix for Real-World Golang Programs.'
 ---
 
-Kokkos is a C++ library and ecosystem for writing parallel programs on heterogeneous systems. One of the primary goals of Kokkos is portability: programs in Kokkos are expressed through general parallel constructs which can enable the same code to compile and execute on different parallel architectures. However, there is no known formal model of Kokkos's semantics, which must be generic enough to support current and future CPU and accelerator architectures. As a first step of formalizing Kokkos, **We introduce MiniKokkos: a small language capturing the main features of Kokkos, and then prove that MiniKokkos ensures portability across all possible parallel executions.** We also provide a case study of how MiniKokkos can help reason about Kokkos programs and help find a bug in the Kokkos implementation.
+Data race detection has been a subject of extensive research for decades; the practical deployment of race detectors has also become increasingly commonplace in industrial settings. However, the focus has mainly been on the detection aspect, with relatively little attention directed toward the challenging task of autonomously repairing programs with data races. This discrepancy is understandable given the inherent complexities of fixing the data race and the substantial engineering efforts required to integrate fixes into existing workflows.
+
+**In this paper, we introduce a novel closed-loop application that harnesses the power of Generative AI to fix data races automatically.** Our early experiments involving this application within Uber's internal codebase have yielded promising results. The evaluation results suggest a bright future for integrating this application into Uber's infrastructure, potentially revolutionizing how data races are handled in large-scale software development environments.
