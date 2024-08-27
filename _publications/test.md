@@ -1,12 +1,12 @@
 ---
-title: "Test paper"
+title: "Early notice: GenAI-based Datarace Fix for Real-World Golang Programs"
 collection: publications
 category: workshops
 permalink: /publication/test
-excerpt: 'This work builds a core language for Kokkos'
-date: 2022-11-18
+excerpt: 'This work uses Large Language Model to fix data races found in Uber's codebase'
+date: 2023-12-15
 venue: '2022 IEEE/ACM Sixth International Workshop on Software Correctness for HPC Applications (Correctness)'
-paperurl: 'http://feiyangjin.github.io/files/minikokkos.pdf'
+paperurl: 'http://feiyangjin.github.io/files/mlsys.pdf'
 citation: 'F. Jin, J. Jacobson, S. D. Pollard and V. Sarkar, "MiniKokkos: A Calculus of Portable Parallelism," 2022 IEEE/ACM Sixth International Workshop on Software Correctness for HPC Applications (Correctness), Dallas, TX, USA, 2022, pp. 37-44, doi: 10.1109/Correctness56720.2022.00010.'
 ---
 
