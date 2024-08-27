@@ -3,7 +3,7 @@ title: "test paper"
 collection: publications
 category: workshops
 permalink: /publication/test
-excerpt: 'This work builds a core language for Kokkos'
+excerpt: 'This work uses Large Language Model to fix data races'
 date: 2022-11-18
 venue: '2022 IEEE/ACM Sixth International Workshop on Software Correctness for HPC Applications (Correctness)'
 paperurl: 'http://feiyangjin.github.io/files/minikokkos.pdf'
