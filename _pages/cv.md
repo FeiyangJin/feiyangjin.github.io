@@ -9,11 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
+[Download my CV](http://feiyangjin.github.io/files/FeiyangJin_CV_2024.pdf)
+======
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Computer Science, Georgia Institute of Technology, 2025 (expected)
+* B.S. in Computer Science, Washington University in St. Louis, 2019
 
 Work experience
 ======

@@ -7,7 +7,7 @@ excerpt: 'This work builds a data race visualizer for OpenMP programs'
 date: 2024-09-22
 venue: 'The 20th International Workshop on OpenMP (IWOMP 2024)'
 paperurl: 'http://feiyangjin.github.io/files/iwomp.pdf'
-citation: ''
+citation: 'Feiyang Jin, Alan Tao, Lechen Yu, Vivek Sarkar. Visualizing Correctness Issues in OpenMP Programs. In 20th International Workshop on OpenMP (IWOMP 2024).'
 ---
 
 Past work on OpenMP program visualization has mainly centered on performance analysis. This paper explores how the visualization of \textit{computation graphs} assists programmers in debugging issues related to program correctness. The motivation is twofold. First, researchers widely use computation graphs to analyze dynamic program behavior. Second, most past work focused on visualizing performance bottlenecks rather than correctness issues. 
