@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # "feiyang-jin-947931157"
+  linkedin         : "feiyang-jin-947931157"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -74,11 +74,11 @@ author:
   zhihu            : # URL
 
 # Publication Category - The following the list of publication categories and their headings
-publication_category:   
-  conferences:
-    title: 'Conference Papers'
-  workshops:
-    title: 'Workshop Papers'
+# publication_category:   
+#   conferences:
+#     title: 'Conference Papers'
+#   workshops:
+#     title: 'Workshop Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"

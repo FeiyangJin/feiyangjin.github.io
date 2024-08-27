@@ -4,7 +4,7 @@ collection: publications
 category: workshops
 permalink: /publication/mlsys
 excerpt: 'This work utilizes Large Langauge Model to fix data races found in Uber's codebase'
-date: 2024-09-22
+date: 2023-12-15
 venue: 'Workshop on ML for Systems at NeurIPS 2023'
 paperurl: 'http://feiyangjin.github.io/files/mlsys.pdf'
 citation: 'Jin, F., Zhang, Z., et al.: Early notice: GenAI-based datarace fix for real-world golang programs. In: Machine Learning for Systems 2023 (MLsys 2023).'
