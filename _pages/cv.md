@@ -19,29 +19,28 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Google
+  * Summser 2024
+  * Ph.D. Software Engineer Intern, Google Cloud, Flex (Resource & Infrastructure Optimization Technology)
+  * Project:
+    * Implement a framework to characterize job network traffic through different profiling techniques. This flow has enabled the comparison between different profiles to decide the best for different applications 
+    * Develop a methodology to pinpoint profiles that best predict future job behavior
+    * Enhance resource utilization for resource management tools through the implemented methodology
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Uber
+  * Summer 2023
+  * Ph.D. Software Engineer Intern, Infrastructure Team, Programming System Group
+  * Project:
+    * Design, implement and evaluate a closed-loop application that uses LLM (Large Language Model) to repair Golang programs with concurrency bugs 
+    * Learn and use internal infrastructure and AST (Abstract syntax tree) for Golang program compilation, analysis, deployment and bug report 
+    * Fix data races found and reported to the internal issue database
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Advanced: C++
+* Intermediate: OpenMP, Python, SQL, LLVM
+* Basic: C, MATLAB, Java, R, Kokkos, Golang
 
 Publications
 ======
@@ -49,11 +48,11 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Teaching
 ======
@@ -63,4 +62,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Paper reviewer: VIVEKFEST 2024, SPLASH Workshop
