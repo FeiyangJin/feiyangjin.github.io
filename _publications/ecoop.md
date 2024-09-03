@@ -3,7 +3,7 @@ title: "Dynamic Determinacy Race Detection for Task-Parallel Programs with Promi
 collection: publications
 category: conferences
 permalink: /publication/ecoop
-# excerpt: 'This paper proves that task-parallel programs consisted of promises is guranteed to be deterministic i'
+excerpt: 'This paper first defines what is determinism for task-parallel programs with promises. It then proves for such programs, data-race freedom guarantees determinism. After that, we propose a new data race detection algorithm, implement it and evaluate its performance.'
 date: 2023-07-11
 venue: '37th European Conference on Object-Oriented Programming (ECOOP 2023)'
 paperurl: 'http://feiyangjin.github.io/files/ecoop.pdf'
