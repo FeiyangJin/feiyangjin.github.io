@@ -19,6 +19,8 @@ Research problems
 =================
 I am proud that my research pushes the boundary of human's understanding of data races and program behavior.
 
+**Data Race Visualization** Explore an [interactive visualization tool](visProject/index.html) that demonstrates data races detected in parallel program. The source code can be found [here](https://github.com/FeiyangJin/visProject/tree/codeDisplay). This work in published in the 2024 IWOMP and the paper can be found [here](https://link.springer.com/chapter/10.1007/978-3-031-72567-8_11).
+
 **Determinism**: given the same input, how do we guarantee the programs will return the same output? How do we even define "same" here? In my [ECOOP](https://feiyangjin.github.io/publication/ecoop) paper, I give the formal definition of determinism for task-parallel programs with promises, and prove that data race freedom guarantees determinism for such program. 
 
 **Happens-before relation**: task A happens before task B if and only if in all possible scheduing of the program, task A has to finish before task B starts. 
@@ -30,5 +32,3 @@ I am proud that my research pushes the boundary of human's understanding of data
 **Dynamic race detection**: To detect data races while running the program, we use compiler to "instrument" each read and write in the program. Instrument means we insert a check function after each read and write. This is done on the IR level.
 When the program is running, the check function records each read and write, and see if a previous access causes a data race with the current access. \
 My [ECOOP](https://feiyangjin.github.io/publication/ecoop) paper designs a new race detection algorithm and evalutes the implementation of it. It is sound and precise: meaning it will not report non-existing race or miss any races. 
-
-[Data Race Visualization Project](visProject/index.html): Explore an interactive visualization tool that demonstrates how data races occur and how they can be detected in parallel programs.
