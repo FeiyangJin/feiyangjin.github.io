@@ -30,3 +30,5 @@ I am proud that my research pushes the boundary of human's understanding of data
 **Dynamic race detection**: To detect data races while running the program, we use compiler to "instrument" each read and write in the program. Instrument means we insert a check function after each read and write. This is done on the IR level.
 When the program is running, the check function records each read and write, and see if a previous access causes a data race with the current access. \
 My [ECOOP](https://feiyangjin.github.io/publication/ecoop) paper designs a new race detection algorithm and evalutes the implementation of it. It is sound and precise: meaning it will not report non-existing race or miss any races. 
+
+[Data Race Visualization Project](visProject/index.html): Explore an interactive visualization tool that demonstrates how data races occur and how they can be detected in parallel programs.
