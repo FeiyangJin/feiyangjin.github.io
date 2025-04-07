@@ -19,7 +19,7 @@ Research problems
 =================
 I am proud that my research pushes the boundary of human's understanding of data races and program behavior.
 
-**Data Race Visualization**: Explore an [interactive visualization tool](visProject/index.html) that demonstrates data races detected in parallel program. The source code can be found [here](https://github.com/FeiyangJin/visProject/tree/codeDisplay). This work in published in the 2024 IWOMP and the paper can be found [here](https://feiyangjin.github.io/publication/iwomp).
+**Data Race Visualization**: Explore an [interactive visualization tool](visProject/index.html){:target="_blank"} that demonstrates data races detected in parallel programs. The source code can be found [here](https://github.com/FeiyangJin/visProject/tree/codeDisplay){:target="_blank"}. This work is published in the 2024 IWOMP, and the paper can be found [here](https://feiyangjin.github.io/publication/iwomp){:target="_blank"}.
 
 **Determinism**: given the same input, how do we guarantee the programs will return the same output? How do we even define "same" here? In my [ECOOP](https://feiyangjin.github.io/publication/ecoop) paper, I give the formal definition of determinism for task-parallel programs with promises, and prove that data race freedom guarantees determinism for such program. 
 
